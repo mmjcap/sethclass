@@ -8,8 +8,8 @@
 <h1>Our First Site</h1>
 <p>So you know who we are</p>
 <a href="ABOUTCAP.html">ABOUT CAP</a>
-<a href="">ABOUT PIZZI</a>
-<a href="">ABOUT NICHAEL</a>
+<a href="ABOUTPIZZI.html">ABOUT PIZZI</a>
+<a href="ABOUTNICO.html">ABOUT NICO</a>
 <a href="FAQ.html">FAQ</a>
 </body>
 </html>
