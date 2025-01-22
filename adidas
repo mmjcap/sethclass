@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+element.style {
+}
+<style>
+:root {
+    --header-mf-z-index: 8000;
+}
+:root {
+    --desktop-header-height: 120px;
+    --mobile-header-height: 105px;
+    --header-mf_sticky-offset: 0px;
+}
+@media (min-width: 960px) {
+    :root {
+        --header-mf_app-banner: 0px;
+    }
+}
+:root {
+    --header-mf_app-banner: 70px;
+}
+:root {
+    --mobile-sub-section-height: 60px;
+    --language-selector-height: 45px;
+}
+:root {
+    --button-primary-icon-ondark-typography-label-a-family: AdihausDIN;
+    --button-primary-icon-ondark-typography-label-a-size: 16px;
+    --button-primary-icon-ondark-typography-label-a-style: normal;
+    --button-primary-icon-ondark-typography-label-a-weight: 700;
+    --button-primary-icon-ondark-typography-label-a-letterspacing: 0px;
+    --button-primary-icon-ondark-typography-label-a-lineheight: 24px;
+    --button-primary-icon-ondark-typography-label-a-decoration: none;
+    --button-primary-icon-ondark-typography-label-a-case: none;
+    --button-secondary-icon-ondark-typography-label-family: AdihausDIN;
+    --button-secondary-icon-ondark-typography-label-size: 16px;
+    --button-secondary-icon-ondark-typography-label-style: normal;
+    --button-secondary-icon-ondark-typography-label-weight: 700;
+    --button-secondary-icon-ondark-typography-label-letterspacing: 0px;
+    --button-secondary-icon-ondark-typography-label-lineheight: 24px;
+    --button-secondary-icon-ondark-typography-label-decoration: none;
+    --button-secondary-icon-ondark-typography-label-case: none;
+    --button-primary-label-ondark-typography-label-b-family: AdihausDIN;
+    --button-primary-label-ondark-typography-label-b-size: 16px;
+    --button-primary-label-ondark-typography-label-b-style: normal;
+    --button-primary-label-ondark-typography-label-b-weight: 400;
+    --button-primary-label-ondark-typography-label-b-letterspacing: 0px;
+    --button-primary-label-ondark-typography-label-b-lineheight: 24px;
+    --button-primary-label-ondark-typography-label-b-decoration: none;
+    --button-primary-label-ondark-typography-label-b-case: none;
+    --button-primary-icon-onlight-typography-label-a-family: AdihausDIN;
+    --button-primary-icon-onlight-typography-label-a-size: 16px;
+    --button-primary-icon-onlight-typography-label-a-style: normal;
+    --button-primary-icon-onlight-typography-label-a-weight: 700;
+    --button-primary-icon-onlight-typography-label-a-letterspacing: 0px;
+    --button-primary-icon-onlight-typography-label-a-lineheight: 24px;
+    --button-primary-icon-onlight-typography-label-a-decoration: none;
+    --button-primary-icon-onlight-typography-label-a-case: none;
+    --button-primary-label-onlight-typography-label-a-family: AdihausDIN;
+    --button-primary-label-onlight-typography-label-a-size: 16px;
+    --button-primary-label-onlight-typography-label-a-style: normal;
+    --button-primary-label-onlight-typography-label-a-weight: 700;
+    --button-primary-label-onlight-typography-label-a-letterspacing: 0px;
+    --button-primary-label-onlight-typography-label-a-lineheight: 24px;
+    --button-primary-label-onlight-typography-label-a-decoration: none;
+    --button-primary-label-onlight-typography-label-a-case: none;
+    --button-secondary-icon-onlight-typography-label-family: AdihausDIN;
+    --button-secondary-icon-onlight-typography-label-size: 16px;
+    --button-secondary-icon-onlight-typography-label-style: normal;
+    --button-secondary-icon-onlight-typography-label-weight: 700;
+    --button-secondary-icon-onlight-typography-label-letterspacing: 0px;
+    --button-secondary-icon-onlight-typography-label-lineheight: 24px;
+    --button-secondary-icon-onlight-typography-label-decoration: none;
+    --button-secondary-icon-onlight-typography-label-case: none;
+    --button-primary-label-onlight-typography-label-b-family: AdihausDIN;
+    --button-primary-label-onlight-typography-label-b-size: 16px;
+Show all properties (2318 more)
+}
+:root {
+    --button-primary-icon-ondark-spacing-leading-innerbox: 16px;
+    --button-primary-icon-ondark-spacing-trailing-innerbox: 12px;
+    --button-primary-icon-ondark-spacing-gap-innerbox: 8px;
+    --button-primary-icon-ondark-spacing-top-outerbox: 4px;
+    --button-primary-icon-ondark-spacing-leading-outerbox: 4px;
+    --button-secondary-icon-ondark-spacing-leading: 16px;
+    --button-secondary-icon-ondark-spacing-trailing: 12px;
+    --button-secondary-icon-ondark-spacing-gap: 8px;
+    --button-primary-icon-onlight-spacing-leading-innerbox: 16px;
+    --button-primary-label-onlight-spacing-leading-innerbox: 16px;
+    --button-primary-icon-onlight-spacing-trailing-innerbox: 12px;
+    --button-primary-label-onlight-spacing-trailing-innerbox: 16px;
+    --button-primary-icon-onlight-spacing-gap-innerbox: 8px;
+    --button-primary-label-onlight-spacing-gap-innerbox: 8px;
+    --button-primary-icon-onlight-spacing-top-outerbox: 4px;
+    --button-primary-icon-onlight-spacing-leading-outerbox: 4px;
+    --button-secondary-icon-onlight-spacing-leading: 16px;
+    --button-secondary-icon-onlight-spacing-trailing: 12px;
+    --button-secondary-icon-onlight-spacing-gap: 8px;
+    --button-membership-icon-onlight-spacing-leading-innerbox: 16px;
+    --button-membership-icon-onlight-spacing-gap-innerbox: 16px;
+    --button-membership-icon-onlight-spacing-trailing-innerbox: 12px;
+    --button-membership-icon-onlight-spacing-top-outerbox: 4px;
+    --button-membership-icon-onlight-spacing-leading-outerbox: 4px;
+    --button-primary-price-onlight-spacing-leading-innerbox: 16px;
+    --button-primary-price-onlight-spacing-trailing-innerbox: 8px;
+    --button-primary-price-onlight-spacing-gap-innerbox: 8px;
+    --button-primary-label-ondark-spacing-trailing-innerbox: 16px;
+    --button-primary-label-ondark-spacing-leading-innerbox: 16px;
+    --button-primary-label-ondark-spacing-gap-innerbox: 8px;
+    --cardcategory-main-onlight-spacing-all: 16px;
+    --cardcategory-main-onlight-spacing-all-hover: 2px;
+    --panelside-main-onlight-spacing-all: 32px;
+    --panelside-main-onlight-spacing-gap: 16px;
+    --panelside-main-onlight-spacing-header-all: 16px;
+    --panelside-main-onlight-spacing-footer-all: 16px;
+    --panelside-main-onlight-spacing-footer-top: 16px;
+    --panelside-main-onlight-spacing-footer-bottom: 16px;
+    --panelside-main-onlight-spacing-footer-leading: 32px;
+    --panelside-main-onlight-spacing-footer-trailing: 32px;
+    --buttonaccordion-small-ondark-spacing-leading: 16px;
+    --buttonaccordion-small-ondark-spacing-trailing: 12px;
+    --buttonaccordion-small-ondark-spacing-gap: 8px;
+    --buttonaccordion-large-onlight-spacing-leading: 24px;
+    --buttonaccordion-large-onlight-spacing-trailing: 24px;
+    --buttonaccordion-large-onlight-spacing-gap: 8px;
+    --buttonaccordion-small-onlight-spacing-leading: 16px;
+    --buttonaccordion-small-onlight-spacing-trailing: 12px;
+    --buttonaccordion-small-onlight-spacing-gap: 8px;
+    --buttondropdown-main-ondark-spacing-leading: 16px;
+Show all properties (622 more)
+}
+:root {
+    --button-primary-icon-ondark-sizing-height-innerbox: 48px;
+    --button-primary-icon-ondark-sizing-height-outerbox: 48px;
+    --button-secondary-icon-ondark-sizing-height: 48px;
+    --button-primary-icon-onlight-sizing-height-innerbox: 48px;
+    --button-primary-label-onlight-sizing-height-innerbox: 48px;
+    --button-primary-icon-onlight-sizing-height-outerbox: 48px;
+    --button-primary-icon-onlight-sizing-all-icon: 32px;
+    --button-primary-icon-ondark-sizing-all-icon: 32px;
+    --button-secondary-icon-onlight-sizing-height: 48px;
+    --button-secondary-icon-onlight-sizing-all-icon: 32px;
+    --button-secondary-icon-ondark-sizing-all-icon: 32px;
+    --button-membership-icon-onlight-sizing-height-innerbox: 48px;
+    --button-membership-icon-onlight-sizing-height-outerbox: 48px;
+    --button-membership-icon-onlight-sizing-all-icon: 32px;
+    --button-primary-price-onlight-sizing-height-innerbox: 48px;
+    --button-primary-label-ondark-sizing-height-innerbox: 48px;
+    --loader-large-onlight-sizing-all: 96px;
+    --loader-small-onlight-sizing-all: 32px;
+    --loader-large-ondark-sizing-all: 96px;
+    --loader-small-ondark-sizing-all: 32px;
+    --buttonaccordion-large-ondark-sizing-height: 80px;
+    --buttonaccordion-small-ondark-sizing-height: 48px;
+    --buttonaccordion-large-onlight-sizing-height: 80px;
+    --buttonaccordion-small-onlight-sizing-all-icon: 32px;
+    --buttonaccordion-small-onlight-sizing-height: 48px;
+    --buttonaccordion-large-onlight-sizing-all-icon: 32px;
+    --buttonaccordion-large-ondark-sizing-all-icon: 32px;
+    --buttonaccordion-small-ondark-sizing-all-icon: 32px;
+    --buttondropdown-main-ondark-sizing-height: 48px;
+    --buttondropdown-main-onlight-sizing-height: 48px;
+    --buttondropdown-main-onlight-sizing-all-icon: 32px;
+    --buttondropdown-main-ondark-sizing-all-icon: 32px;
+    --inputlistitem-flag-ondark-sizing-height: 48px;
+    --inputlistitem-flag-onlight-sizing-height: 48px;
+    --inputlistitem-text-ondark-sizing-height: 48px;
+    --inputlistitem-text-onlight-sizing-height: 48px;
+    --buttonsmall-main-ondark-sizing-height: 32px;
+    --buttonsmall-main-onlight-sizing-height: 32px;
+    --buttonsmall-main-onlight-sizing-all-icon: 24px;
+    --buttonsmall-main-ondark-sizing-all-icon: 24px;
+    --tabitem-main-ondark-sizing-height: 56px;
+    --tabitem-main-onlight-sizing-height: 56px;
+    --paginationitem-main-ondark-sizing-width: 16px;
+    --paginationitem-main-onlight-sizing-width: 16px;
+    --inputtext-main-onlight-sizing-text-block-height: 44px;
+    --inputtext-main-onlight-sizing-all-icon: 32px;
+    --textarea-main-onlight-sizing-text-block-height: 44px;
+    --textarea-main-onlight-sizing-height: 136px;
+    --textarea-main-onlight-sizing-all-icon: 32px;
+    --chipselection-icon-ondark-sizing-height: 32px;
+Show all properties (113 more)
+}
+:root {
+    --button-primary-icon-ondark-color-background-innerbox: #FFFFFF;
+    --button-primary-icon-ondark-color-text: #000000;
+    --button-primary-icon-ondark-color-icon: #000000;
+    --button-primary-icon-ondark-color-border-outerbox: #FFFFFF;
+    --button-primary-icon-ondark-color-background-outerbox: transparent;
+    --button-primary-icon-ondark-color-background-innerbox-disabled: #3B3B3C;
+    --button-primary-icon-ondark-color-text-disabled: #FFFFFF;
+    --button-primary-icon-ondark-color-icon-disabled: #FFFFFF;
+    --button-primary-icon-ondark-color-animation-loading: #FFFFFF;
+    --button-secondary-icon-ondark-color-animation-loading: #FFFFFF;
+    --button-primary-icon-ondark-color-background-innerbox-hover: #F5F5F5;
+    --button-primary-icon-ondark-color-border-outerbox-hover: #929396;
+    --button-secondary-icon-ondark-color-background: #000000;
+    --button-secondary-icon-ondark-color-text: #FFFFFF;
+    --button-secondary-icon-ondark-color-icon: #FFFFFF;
+    --button-secondary-icon-ondark-color-border: #FFFFFF;
+    --button-secondary-icon-ondark-color-border-hover: #929396;
+    --button-secondary-icon-ondark-color-background-hover: #1E1E1E;
+    --button-primary-icon-onlight-color-background-innerbox: #000000;
+    --button-primary-label-onlight-color-background-innerbox: #000000;
+    --button-primary-label-ondark-color-background-innerbox: #FFFFFF;
+    --button-primary-icon-onlight-color-text: #FFFFFF;
+    --button-membership-icon-onlight-color-text: #FFFFFF;
+    --button-primary-label-onlight-color-text: #FFFFFF;
+    --button-primary-icon-onlight-color-icon: #FFFFFF;
+    --button-primary-icon-onlight-color-border-outerbox: #000000;
+    --button-primary-icon-onlight-color-background-outerbox: transparent;
+    --button-primary-icon-onlight-color-background-innerbox-disabled: #D9DBDD;
+    --button-primary-label-onlight-color-background-innerbox-disabled: #D9DBDD;
+    --button-primary-icon-onlight-color-text-disabled: #000000;
+    --button-primary-label-onlight-color-text-disabled: #000000;
+    --button-primary-icon-onlight-color-icon-disabled: #000000;
+    --button-primary-icon-onlight-color-background-innerbox-hover: #1E1E1E;
+    --button-primary-icon-onlight-color-border-outerbox-hover: #929396;
+    --button-secondary-icon-onlight-color-text: #000000;
+    --button-secondary-icon-onlight-color-icon: #000000;
+    --button-secondary-icon-onlight-color-border: #000000;
+    --button-secondary-icon-onlight-color-border-hover: #929396;
+    --button-secondary-icon-onlight-color-background: #FFFFFF;
+    --button-secondary-icon-onlight-color-background-hover: #F5F5F5;
+    --button-membership-icon-onlight-color-background-innerbox: #007BC6;
+    --button-membership-icon-onlight-color-icon: #FFFFFF;
+    --button-membership-icon-onlight-color-border-outerbox: #007BC6;
+    --button-membership-icon-onlight-color-background-outerbox: transparent;
+    --button-membership-icon-onlight-color-background-innerbox-disabled: #D9DBDD;
+    --button-membership-icon-onlight-color-text-disabled: #000000;
+    --button-membership-icon-onlight-color-icon-disabled: #000000;
+    --button-membership-icon-onlight-color-background-innerbox-hover: #0071AE;
+    --button-membership-icon-onlight-color-border-outerbox-hover: #0071AE;
+    --button-primary-price-onlight-color-background-innerbox: #000000;
+Show all properties (826 more)
+}
+:root {
+    --button-primary-icon-ondark-borderwidth-all-outerbox: 1px;
+    --button-secondary-icon-ondark-borderwidth-all: 1px;
+    --button-primary-icon-onlight-borderwidth-all-outerbox: 1px;
+    --button-secondary-icon-onlight-borderwidth-all: 1px;
+    --button-membership-icon-onlight-borderwidth-all-outerbox: 1px;
+    --cardcategory-main-onlight-borderwidth-all: 1px;
+    --loader-large-onlight-borderwidth-all: 4px;
+    --loader-small-onlight-borderwidth-all: 1px;
+    --loader-large-ondark-borderwidth-all: 4px;
+    --loader-small-ondark-borderwidth-all: 2px;
+    --buttonaccordion-small-ondark-borderwidth-bottom: 1px;
+    --buttonaccordion-large-onlight-borderwidth-bottom: 1px;
+    --buttonaccordion-small-onlight-borderwidth-bottom: 1px;
+    --accordion-large-ondark-borderwidth-top: 1px;
+    --accordion-small-ondark-borderwidth-top: 1px;
+    --accordion-large-onlight-borderwidth-top: 1px;
+    --accordion-small-onlight-borderwidth-top: 1px;
+    --buttondropdown-main-ondark-borderwidth-all: 1px;
+    --buttondropdown-main-onlight-borderwidth-all: 1px;
+    --inputlistitem-flag-ondark-borderwidth-leading: 1px;
+    --inputlistitem-flag-ondark-borderwidth-trailing: 1px;
+    --inputlistitem-flag-ondark-borderwidth-bottom: 1px;
+    --inputlistitem-flag-onlight-borderwidth-leading: 1px;
+    --inputlistitem-flag-onlight-borderwidth-trailing: 1px;
+    --inputlistitem-flag-onlight-borderwidth-bottom: 1px;
+    --inputlistitem-text-ondark-borderwidth-leading: 1px;
+    --inputlistitem-text-ondark-borderwidth-trailing: 1px;
+    --inputlistitem-text-ondark-borderwidth-bottom: 1px;
+    --inputlistitem-text-onlight-borderwidth-leading: 1px;
+    --inputlistitem-text-onlight-borderwidth-trailing: 1px;
+    --inputlistitem-text-onlight-borderwidth-bottom: 1px;
+    --buttonsmall-main-ondark-borderwidth-all: 1px;
+    --buttonsmall-main-onlight-borderwidth-all: 1px;
+    --tabitem-main-ondark-borderwidth-bottom-active: 2px;
+    --tabitem-main-ondark-borderwidth-bottom-inactive: 2px;
+    --tabitem-main-onlight-borderwidth-bottom-active: 2px;
+    --tabitem-main-onlight-borderwidth-bottom-inactive: 2px;
+    --tabs-main-onlight-borderwidth-bottom: 1px;
+    --tabs-main-ondark-borderwidth-bottom: 1px;
+    --paginationitem-main-ondark-borderwidth-inactive: 1px;
+    --paginationitem-main-ondark-borderwidth-active: 4px;
+    --paginationitem-main-onlight-borderwidth-inactive: 1px;
+    --paginationitem-main-onlight-borderwidth-active: 4px;
+    --inputtext-main-onlight-borderwidth-all-box-inactive: 1px;
+    --inputtext-main-onlight-borderwidth-all-box: 1px;
+    --inputtext-main-onlight-borderwidth-bottom-indicator: 2px;
+    --textarea-main-onlight-borderwidth-all-box-inactive: 1px;
+    --textarea-main-onlight-borderwidth-all-box: 1px;
+    --textarea-main-onlight-borderwidth-bottom-indicator: 2px;
+    --chipselection-icon-ondark-borderwidth-all: 1px;
+Show all properties (51 more)
+}
+:root {
+    --radio-main-ondark-borderradius-all-outerbox: 16px;
+    --radio-main-ondark-borderradius-all-innerbox: 12px;
+    --radio-main-ondark-borderradius-all-activebox: 8px;
+    --radio-main-onlight-borderradius-all-outerbox: 16px;
+    --radio-main-onlight-borderradius-all-innerbox: 12px;
+    --radio-main-onlight-borderradius-all-activebox: 8px;
+}
+:root {
+    --gl-font-family-fallback: 'Helvetica', 'Arial', sans-serif;
+    --gl-body-font-set-family-functional-1: AdihausDIN;
+    --gl-body-font-set-size-functional-1: 12px;
+    --gl-body-font-set-style-functional-1: normal;
+    --gl-body-font-set-weight-functional-1: 400;
+    --gl-body-font-set-letterspacing-functional-1: 0px;
+    --gl-body-font-set-lineheight-functional-1: 16px;
+    --gl-body-font-set-decoration-functional-1: none;
+    --gl-body-font-set-case-functional-1: none;
+    --gl-body-font-set-family-functional-2: AdihausDIN;
+    --gl-body-font-set-size-functional-2: 12px;
+    --gl-body-font-set-style-functional-2: normal;
+    --gl-body-font-set-weight-functional-2: 500;
+    --gl-body-font-set-letterspacing-functional-2: 0px;
+    --gl-body-font-set-lineheight-functional-2: 16px;
+    --gl-body-font-set-decoration-functional-2: none;
+    --gl-body-font-set-case-functional-2: none;
+    --gl-body-font-set-family-functional-3: AdihausDIN;
+    --gl-body-font-set-size-functional-3: 12px;
+    --gl-body-font-set-style-functional-3: normal;
+    --gl-body-font-set-weight-functional-3: 700;
+    --gl-body-font-set-letterspacing-functional-3: 0px;
+    --gl-body-font-set-lineheight-functional-3: 16px;
+    --gl-body-font-set-decoration-functional-3: none;
+    --gl-body-font-set-case-functional-3: none;
+    --gl-body-font-set-family-functional-4: AdihausDIN;
+    --gl-body-font-set-size-functional-4: 14px;
+    --gl-body-font-set-style-functional-4: normal;
+    --gl-body-font-set-weight-functional-4: 400;
+    --gl-body-font-set-letterspacing-functional-4: 0px;
+    --gl-body-font-set-lineheight-functional-4: 20px;
+    --gl-body-font-set-decoration-functional-4: none;
+    --gl-body-font-set-case-functional-4: none;
+    --gl-body-font-set-family-functional-5: AdihausDIN;
+    --gl-body-font-set-size-functional-5: 14px;
+    --gl-body-font-set-style-functional-5: normal;
+    --gl-body-font-set-weight-functional-5: 500;
+    --gl-body-font-set-letterspacing-functional-5: 0px;
+    --gl-body-font-set-lineheight-functional-5: 20px;
+    --gl-body-font-set-decoration-functional-5: none;
+    --gl-body-font-set-case-functional-5: none;
+    --gl-body-font-set-family-functional-6: AdihausDIN;
+    --gl-body-font-set-size-functional-6: 14px;
+    --gl-body-font-set-style-functional-6: normal;
+    --gl-body-font-set-weight-functional-6: 700;
+    --gl-body-font-set-letterspacing-functional-6: 0px;
+    --gl-body-font-set-lineheight-functional-6: 20px;
+    --gl-body-font-set-decoration-functional-6: none;
+    --gl-body-font-set-case-functional-6: none;
+    --gl-body-font-set-family-functional-7: AdihausDIN;
+Show all properties (415 more)
+}
+:root {
+    --gl-spacing-0000: 0px;
+    --gl-spacing-0025: 2.5px;
+    --gl-spacing-0050: 5px;
+    --gl-spacing-0100: 10px;
+    --gl-spacing-0150: 15px;
+    --gl-spacing-0200: 20px;
+    --gl-spacing-0300: 30px;
+    --gl-spacing-0400: 40px;
+    --gl-spacing-0600: 60px;
+    --gl-spacing-0800: 80px;
+    --gl-spacing-1000: 100px;
+    --gl-spacing-1200: 120px;
+    --gl-spacing-1500: 150px;
+}
+:root {
+    --gl-web-shadow-textshadow-1: 1px 1px 0px rgba(255, 255, 255, 1);
+    --gl-web-shadow-textshadow-inverse-1: 1px 1px 0px rgba(0, 0, 0, 1);
+    --gl-app-shadow-textshadow-inverse-1: 3px 3px 0px rgba(0, 0, 0, 1);
+}
+:root {
+    --gl-motion-duration-none: 0.00s;
+    --gl-motion-duration: 0.30s;
+    --gl-motion-duration-slow: 0.70s;
+    --gl-motion-easing: cubic-bezier(0.3, 0, 0, 1);
+    --gl-motion-duration-all: 0.30s;
+    --gl-motion-easing-all: cubic-bezier(0.3, 0, 0, 1);
+    --gl-animation-motion-duration-loading: 0.70s;
+    --gl-motion-duration-transform: 0.30s;
+    --gl-motion-easing-transform: cubic-bezier(0.3, 0, 0, 1);
+    --gl-motion-duration-transform-press: 0.30s;
+    --gl-motion-easing-transform-press: cubic-bezier(0.3, 0, 0, 1);
+    --gl-motion-duration-textcolor: 0.30s;
+    --gl-motion-easing-textcolor: cubic-bezier(0.3, 0, 0, 1);
+    --gl-icon-motion-duration-color: 0.30s;
+    --gl-icon-motion-easing-color: cubic-bezier(0.3, 0, 0, 1);
+    --gl-motion-duration-backgroundcolor: 0.30s;
+    --gl-motion-easing-backgroundcolor: cubic-bezier(0.3, 0, 0, 1);
+    --gl-motion-duration-opacity: 0.30s;
+    --gl-motion-easing-opacity: cubic-bezier(0.3, 0, 0, 1);
+    --gl-motion-duration-bordercolor: 0.30s;
+    --gl-motion-easing-bordercolor: cubic-bezier(0.3, 0, 0, 1);
+}
+:root {
+    --gl-color-black: #000000;
+    --gl-color-white: #ffffff;
+    --gl-color-blue: #007bc6;
+    --gl-color-grey-100: #eceff1;
+    --gl-color-grey-400: #d3d7da;
+    --gl-color-grey-700: #767677;
+    --gl-color-red: #e32b2b;
+    --gl-color-orange: #d98916;
+    --gl-color-green: #00aa55;
+    --gl-color-adiclubblue: #0081c7;
+    --gl-color-offwhite: #f5f5e5;
+    --gl-color-tracekhaki: #a39582;
+    --gl-color-tracemaroon: #b56971;
+    --gl-color-ashgreen: #a7c1b9;
+    --gl-color-rawgrey: #6d8194;
+    --gl-color-legendink: #3a3e4f;
+    --gl-color-shockyellow: #ede734;
+    --gl-color-shockpink: #da1a7b;
+    --gl-color-brightblue: #0071ae;
+    --gl-color-hiresaqua: #00a2a2;
+    --gl-color-shocklime: #2ada71;
+    --gl-color-yeezyblack: #282c31;
+    --gl-color-yeezyoffwhite: #ecebdf;
+    --gl-color-looppink: #d92f4c;
+    --gl-color-loopdarkpink: #b6223c;
+    --gl-color-transparent: rgba(255, 255, 255, 0);
+    --gl-color-black-070: rgba(0, 0, 0, 0.7);
+    --gl-color-brand-p1: #000000;
+    --gl-color-brand-p2: #ffffff;
+    --gl-color-brand-p3: #007bc6;
+    --gl-color-membership-s1: #0081c7;
+    --gl-color-membership-s2: #a39582;
+    --gl-color-membership-s3: #a7c1b9;
+    --gl-color-membership-s4: #b56971;
+    --gl-color-membership-s5: #6d8194;
+    --gl-color-neutral-s1: #f5f5e5;
+    --gl-color-neutral-s2: #a39582;
+    --gl-color-neutral-s3: #b56971;
+    --gl-color-neutral-s4: #a7c1b9;
+    --gl-color-neutral-s5: #6d8194;
+    --gl-color-neutral-s6: #3a3e4f;
+    --gl-color-bright-s1: #ede734;
+    --gl-color-bright-s2: #e32b2b;
+    --gl-color-bright-s3: #da1a7b;
+    --gl-color-bright-s4: #0071ae;
+    --gl-color-bright-s5: #00a2a2;
+    --gl-color-bright-s6: #2ada71;
+    --gl-color-franchise-s1: #282c31;
+    --gl-color-franchise-s2: #ecebdf;
+    --gl-color-franchise-s3: #d92f4c;
+Show all properties (83 more)
+}
+html, body {
+    height: 100%;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "auto";
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
