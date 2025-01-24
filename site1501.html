@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-#grad{
-  height: 40px;
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,0,1));
-}
-  body {background-color: darkorchid;}
-  
+  <style>
+    #grad{
+      height: 40px;
+      background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,0,1));
+    }
+    
+    body {
+      background-color: darkorchid;
+    }
+    .button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    .buttons-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .button:hover {
+      background-color: darkgray;
+    }
+    .buttons-container a {
+      margin: 0 15px;
+    }
+    .content {
+      text-align: center;
+    }
+  </style>
   <link rel="icon" href="favicon.png" type="image/png">
-
-
- h1 {text-align: center;}
-p {text-align: center;}
-</style>
-<title>eleonora love</title>
+  <title>eleonora love</title>
 </head>
 <body>
- 
-<h1 id="grad">Our First Site</h1>
-<h2>So you know who we are</h2>
-<p>Giacomo Capone: <br><a style="border: 1px solid black"; style="color: black; "href="ABOUTCAP.html">ABOUT CAP</a></p> 
- <br>
-<p>Federico Pizzioli: <br><a style="border: 1px solid black"; style="color: black; "href="ABOUTPIZZI.html">ABOUT PIZZI</a></p>
- <br>
-<p>Nicolo Valvasori: <br><a style="border: 1px solid black"; style="color: black {text-align: center}; "href="ABOUTNICO.html">ABOUT NICO</a></p>
- <br>
- <a href="LINKIMMAGINE.html">
-    <img src="PLAYERS2001.jpg" width="500" height="600">
-</a>
 
- <br>
-<a href="FAQ.html">FAQ</a>
+<h1 id="grad">Our First Site</h1>
+
+<h2>So you know who we are</h2>
+
+<div class="buttons-container">
+    <a href="MAINPAGE.html" class="button">Main page</a>
+    <a href="ABOUTUS.html" class="button">About us</a>
+  <a href="FAQ.html" class="button">Faq</a>
+</div>
+
+  <a href="LINKIMMAGINE.html">
+    <img src="PLAYERS2001.jpg" width="500" height="600">
+  </a>
+  <br>
+
+</div>
 
 </body>
 </html>
